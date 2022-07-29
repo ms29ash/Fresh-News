@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import News from "./components/News";
 import LoadingBar from "react-top-loading-bar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Hero from "./components/Hero";
 
 const App = () => {
   const pageSize = 5;
@@ -20,6 +21,7 @@ const App = () => {
           shadow={true}
           height={3}
         />
+        <Hero />
 
         <Routes>
           <Route

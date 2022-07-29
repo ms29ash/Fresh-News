@@ -60,7 +60,7 @@ const News = (props) => {
   }, []);
 
   return (
-    <div className=" container my-3 ">
+    <div className=" container news my-3 ">
       <h1 className="text-center " style={{ marginTop: "90px" }}>
         Top {capitalizeFirstLetter(props.category)}Headlines
       </h1>
@@ -84,7 +84,7 @@ const News = (props) => {
       // scrollableTarget="scrollableDiv"
       >
         <div className="row">
-          {articles.map((element) => {
+          {articles?.map((element) => {
             return (
               <div className="col-md-4" key={element.url}>
                 <NewsItem

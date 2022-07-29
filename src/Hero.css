@@ -1,0 +1,13 @@
+.hero {
+  width: 100vw;
+  z-index: -10;
+  height: 50vh;
+  object-fit: cover;
+  position: relative;
+  object-position: center;
+  top: 5vh;
+}
+
+.news {
+  background-color: white;
+}
